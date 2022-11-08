@@ -6,17 +6,28 @@ body {
     background-color: #e5e5e5;
 }
 
-/* .header {
-    width: 1600px;
-    height: 80px;
-    background-color: #fff;
-}
-
-.header li,
-.header a {
+.menu-style a,
+.menu-style li {
     text-decoration: none;
     list-style-type: none;
-} */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.menu a {
+    color: #212121;
+}
+
+.contact a {
+    color: #757575;
+}
+
+.menu a:hover,
+.contact a:hover {
+    color: #2196f3;
+}
 
 .logo {
     font-family: 'Raleway', sans-serif;

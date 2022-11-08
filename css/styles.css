@@ -2,10 +2,12 @@
 
 :root {
     --siteBackgroundColor: #e5e5e5;
-    --logoColor: #000;
+    --blackColor: #000;
+    --whiteColor: #fff;
     --contactColor: #757575;
     --navigationColor: #212121;
     --mainPageColor: #2196f3;
+    --footerContactColor: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -44,9 +46,25 @@ body {
     line-height: 31px;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: var(--logoColor);
+    color: var(--blackColor);
 }
 
 .logo span {
     color: var(--mainPageColor);
+}
+
+.footer-style a,
+.footer-style li {
+    text-decoration: none;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--footerContactColor);
+} 
+
+.address {
+    color: var(--whiteColor);
 }

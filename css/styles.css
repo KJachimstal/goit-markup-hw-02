@@ -97,3 +97,28 @@ body {
     line-height: 30px;
     letter-spacing: 0.06em;
 }
+
+.description li {
+    list-style-type: none;
+}
+
+.description-title {
+    display: none;
+}
+
+.description-subtitle {
+    color: var(--secondaryPageColor);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.description-content {
+    color: var(--contactColor);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    width: 270px;
+}

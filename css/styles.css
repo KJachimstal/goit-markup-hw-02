@@ -15,6 +15,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     background-color: var(--siteBackgroundColor);
+    color: var(--secondaryPageColor);
 }
 
 .menu-navigation a,
@@ -107,7 +108,6 @@ body {
 }
 
 .description-subtitle {
-    color: var(--secondaryPageColor);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -128,7 +128,6 @@ body {
 }
 
 .about_us-title {
-    color: var(--secondaryPageColor);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -141,7 +140,6 @@ body {
 }
 
 .crew-title {
-    color: var(--secondaryPageColor);
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -150,7 +148,6 @@ body {
 }
 
 .crew-name {
-    color: var(--secondaryPageColor);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;

@@ -8,6 +8,7 @@
     --secondaryPageColor: #212121;
     --mainPageColor: #2196f3;
     --footerContactColor: rgba(255, 255, 255, 0.6);
+    --banerBackgroundColor: #2f303a;
 }
 
 body {
@@ -37,8 +38,7 @@ body {
     list-style-type: none;
 }
 
-.menu a:hover,
-.menu-contact a:hover {
+.menu a:hover {
     color: var(--mainPageColor);
 }
 
@@ -69,4 +69,31 @@ body {
 
 .footer-address {
     color: var(--whiteColor);
+}
+
+.banner {
+    width: 600px;
+    background-color: var(--banerBackgroundColor);
+}
+
+.banner-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--whiteColor);
+}
+
+.banner-button {
+    color: var(--whiteColor);
+    background: var(--mainPageColor);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
 }

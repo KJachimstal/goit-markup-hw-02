@@ -135,3 +135,34 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
+
+.crew li {
+    list-style-type: none;
+}
+
+.crew-title {
+    color: var(--secondaryPageColor);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.crew-name {
+    color: var(--secondaryPageColor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.crew-position {
+    color: var(--contactColor);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}

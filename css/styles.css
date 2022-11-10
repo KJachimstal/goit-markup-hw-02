@@ -20,6 +20,12 @@ body {
     margin: auto;
 }
 
+.menu {
+    position: relative;
+    height: 80px;
+    background-color: var(--whiteColor);
+}
+
 .menu-navigation a,
 .menu-navigation li {
     text-decoration: none;
@@ -30,7 +36,25 @@ body {
     letter-spacing: 0.02em;
 }
 
-.menu a {
+.menu-navigation-agency {
+    position: absolute;
+    top: 32px;
+    left: 453px;
+}
+
+.menu-navigation-portfolio {
+    position: absolute;
+    top: 32px;
+    left: 552px;
+}
+
+.menu-navigation-contact {
+    position: absolute;
+    top: 32px;
+    left: 656px;
+}
+
+.menu-container a {
     color: var(--secondaryPageColor);
 }
 
@@ -41,7 +65,19 @@ body {
     list-style-type: none;
 }
 
-.menu a:hover {
+.menu-contact-mail {
+    position: absolute;
+    left: 1078px;
+    top: 32px;
+}
+
+.menu-contact-tel {
+    position: absolute;
+    left: 1253px;
+    top: 32px;
+}
+
+.menu-container a:hover {
     color: var(--mainPageColor);
 }
 
@@ -53,6 +89,12 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--blackColor);
+}
+
+.logo-menu {
+    position: absolute;
+    top:24px;
+    left: 215px;
 }
 
 .logo span {
@@ -76,7 +118,6 @@ body {
 
 .banner {
     position: relative;
-    width: 1600px;
     height: 600px;
     background-color: var(--banerBackgroundColor);
 }

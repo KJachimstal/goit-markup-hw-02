@@ -14,6 +14,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 14px;
     background-color: var(--siteBackgroundColor);
     color: var(--secondaryPageColor);
     width: 1600px;
@@ -93,26 +94,49 @@ body {
 
 .logo-menu {
     position: absolute;
-    top:24px;
+    top: 24px;
     left: 215px;
+}
+
+.logo-footer {
+    position: absolute;
+    left: 215px;
+    top: 60px;
+    color: var(--whiteColor);
 }
 
 .logo span {
     color: var(--mainPageColor);
 }
 
-.footer a,
+.footer {
+    position: relative;
+    height: 252px;
+    background-color: var(--banerBackgroundColor);
+}
+
 .footer li {
-    text-decoration: none;
     list-style-type: none;
+
+}
+
+.footer-list {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 215px;
+    top: 100px;
+}
+
+.footer-list-link {
+    text-decoration: none;
     font-style: normal;
-    font-size: 14px;
-    line-height: 24px;
+    line-height: 2;
     letter-spacing: 0.03em;
     color: var(--footerContactColor);
 }
 
-.footer-address {
+.footer-link-address {
     color: var(--whiteColor);
 }
 

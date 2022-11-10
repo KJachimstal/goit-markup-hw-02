@@ -16,6 +16,8 @@ body {
     font-weight: 400;
     background-color: var(--siteBackgroundColor);
     color: var(--secondaryPageColor);
+    width: 1600px;
+    margin: auto;
 }
 
 .menu-navigation a,
@@ -73,7 +75,8 @@ body {
 }
 
 .banner {
-    width: 600px;
+    width: 1600px;
+    height: 600px;
     background-color: var(--banerBackgroundColor);
 }
 
@@ -97,6 +100,7 @@ body {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 .description li {

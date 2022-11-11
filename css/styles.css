@@ -105,5 +105,36 @@ body {
 
 .description-content {
     line-height: 1.71;
-    color:var(--contactColor);
+    color: var(--contactColor);
+}
+
+.about_us-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--secondaryPageColor);
+}
+
+.crew-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--secondaryPageColor);
+}
+
+.crew-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--secondaryPageColor);
+}
+
+.crew-position {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--contactColor);
 }

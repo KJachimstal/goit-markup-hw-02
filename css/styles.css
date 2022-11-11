@@ -8,24 +8,15 @@
     --secondaryPageColor: #212121;
     --mainPageColor: #2196f3;
     --footerContactColor: rgba(255, 255, 255, 0.6);
-    --banerBackgroundColor: #2f303a;
+    --bannerBackgroundColor: #2f303a;
 }
 
 body {
-    position: relative;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     background-color: var(--siteBackgroundColor);
     color: var(--secondaryPageColor);
-    width: 1600px;
-    margin: auto;
-    padding: 0;
-}
-
-.menu {
-    height: 80px;
-    background-color: var(--whiteColor);
 }
 
 .menu-navigation a,
@@ -38,24 +29,6 @@ body {
     letter-spacing: 0.02em;
 }
 
-.menu-navigation-agency {
-    position: absolute;
-    top: 32px;
-    left: 453px;
-}
-
-.menu-navigation-portfolio {
-    position: absolute;
-    top: 32px;
-    left: 552px;
-}
-
-.menu-navigation-contact {
-    position: absolute;
-    top: 32px;
-    left: 656px;
-}
-
 .menu-container a {
     color: var(--secondaryPageColor);
 }
@@ -65,18 +38,6 @@ body {
     color: var(--contactColor);
     text-decoration: none;
     list-style-type: none;
-}
-
-.menu-contact-mail {
-    position: absolute;
-    left: 1078px;
-    top: 32px;
-}
-
-.menu-contact-tel {
-    position: absolute;
-    left: 1253px;
-    top: 32px;
 }
 
 .menu-container a:hover {
@@ -93,16 +54,7 @@ body {
     color: var(--blackColor);
 }
 
-.logo-menu {
-    position: absolute;
-    top: 24px;
-    left: 215px;
-}
-
 .logo-footer {
-    position: absolute;
-    left: 215px;
-    top: 60px;
     color: var(--whiteColor);
 }
 
@@ -110,23 +62,8 @@ body {
     color: var(--mainPageColor);
 }
 
-.footer {
-    position: relative;
-    height: 252px;
-    background-color: var(--banerBackgroundColor);
-}
-
 .footer li {
     list-style-type: none;
-
-}
-
-.footer-list {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    left: 215px;
-    top: 100px;
 }
 
 .footer-list-link {
@@ -141,32 +78,16 @@ body {
     color: var(--whiteColor);
 }
 
-.banner {
-    position: relative;
-    height: 600px;
-    background-color: var(--banerBackgroundColor);
-}
-
 .banner-title {
-    position: absolute;
-    top: 200px;
-    left: 452px;
-    transform: translate(0, -50%);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--whiteColor);
-    width: 696px;
-    height: 120px;
 }
 
 .banner-button {
-    position: absolute;
-    left: 700px;
-    top: 350px;
-    transform: translate(0, -50%);
     color: var(--whiteColor);
     background: var(--mainPageColor);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -178,74 +99,4 @@ body {
     line-height: 30px;
     letter-spacing: 0.06em;
     cursor: pointer;
-}
-
-.main {
-    background-color: var(--whiteColor);
-}
-
-.description {
-    position: relative;
-}
-
-.description li {
-    list-style-type: none;
-}
-
-.description-title {
-    display: none;
-}
-
-.description-subtitle {
-    font-weight: 700;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-}
-
-.description-content {
-    color: var(--contactColor);
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    width: 270px;
-}
-
-.about_us li {
-    list-style-type: none;
-}
-
-.about_us-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
-.crew li {
-    list-style-type: none;
-}
-
-.crew-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
-.crew-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
-.crew-position {
-    color: var(--contactColor);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
 }

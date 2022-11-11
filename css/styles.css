@@ -15,33 +15,35 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
+    letter-spacing: 0.03em;
     background-color: var(--siteBackgroundColor);
     color: var(--secondaryPageColor);
 }
 
-.menu-navigation a,
-.menu-navigation li {
+.no-decoration a {
     text-decoration: none;
-    list-style-type: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+    font-style: normal;
 }
 
-.menu-container a {
+.no-list-style li {
+    list-style-type: none;
+}
+
+.link-select a:hover,
+.link-select ul li a:hover,
+.link-select ul li a:focus {
+    color: var(--mainPageColor);
+}
+
+.menu-navigation a {
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: var(--secondaryPageColor);
 }
 
-.menu-contact a,
-.menu-contact li {
+.menu-contact a{
     color: var(--contactColor);
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.menu-container a:hover {
-    color: var(--mainPageColor);
 }
 
 .logo {
@@ -49,32 +51,22 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
     color: var(--blackColor);
-}
-
-.logo-footer {
-    color: var(--whiteColor);
 }
 
 .logo span {
     color: var(--mainPageColor);
 }
 
-.footer li {
-    list-style-type: none;
+.logo-footer {
+    color: var(--whiteColor);
 }
 
-.footer-list-link {
-    text-decoration: none;
-    font-style: normal;
-    line-height: 2;
-    letter-spacing: 0.03em;
+.footer-navigation a{
     color: var(--footerContactColor);
 }
 
-.footer-link-address {
+.footer-navigation li:first-child a {
     color: var(--whiteColor);
 }
 

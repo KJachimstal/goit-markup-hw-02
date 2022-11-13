@@ -119,6 +119,7 @@ body {
     height: 50px;
     font-weight: 700;
     font-size: 16px;
+    font-family: inherit;
     line-height: 1.87;
     letter-spacing: 0.06em;
     cursor: pointer;
@@ -190,6 +191,7 @@ body {
 .portfolio button {
     font-weight: 500;
     font-size: 16px;
+    font-family: inherit;
     line-height: 1.62;
     letter-spacing: 0.03em;
     text-align: center;
